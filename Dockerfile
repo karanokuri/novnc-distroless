@@ -1,7 +1,7 @@
 FROM debian:stable-slim AS build-env
 
-ARG NOVNC_VERSION=v1.3.0
-ARG WEBSOCKIFY_VERSION=v0.10.0
+ARG NOVNC_VERSION=v1.6.0
+ARG WEBSOCKIFY_VERSION=v0.13.0
 
 RUN apt-get update \
  && apt-get install --no-install-suggests --no-install-recommends --yes \
